@@ -1,0 +1,94 @@
+/* css for about page */
+
+.ct-about-main{
+    display: flex;
+    flex-direction: row;
+}
+.ct-left{
+    width: 200px;
+    min-height: 350px;
+    /* background-color: aqua; */
+}
+
+.profile-photo img{
+    width: 200px;
+}
+
+.profile-links a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(100, 114, 235);
+}
+
+
+
+.ct-right {
+    margin: 10px 10px;
+    width: 472px;
+    /* background-color: yellow; */
+    margin-left: 30px;
+}
+
+.pf-edit{
+    padding-left:184px;
+
+
+}
+#about-card{
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pf-edit {
+        padding-left: 184px;
+        display: none;
+    }
+    .ct-right {
+        margin: 10px 10px 10px 30px;
+        max-width: 472px;
+        /* font-size: 1.2rem; */
+    }
+    .ct-form-section {
+        height: 702px;
+        margin: auto;
+        padding: 20px;
+        max-width: 750px;
+    }
+    .ct-about-main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ct-right {
+        margin: 48px 10px 10px 30px;
+        max-width: 472px;
+        font-size: 1.2rem;
+    }
+    .login-sec {
+        height: auto;
+        padding: 20px;
+    }
+    
+.profile-links {
+    text-align: center;
+}
+.ct-about-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#about-card{
+    min-height: 700px;
+}
+.ct-left, .profile-photo img {
+    width: 200px;
+    padding: 20px 0px;
+}
+    
+}

@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+/* register page css */
+
+.ct-form-section{
+
+  max-width: 750px;
+  height: 702px;
+  margin: auto;
+  padding: 20px;
+}
+.ct-form{
+  background-color: aliceblue;
+  display: flex;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.ct-img img{
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 75px;
+}
+
+.ct-img {
+  margin: auto;
+  width: 400px;
+}
+
+.card {
+  transform-style: preserve-3d;
+
+  border-radius: 30px;
+  
+  box-shadow: 0 20px 20px rgba(240, 248, 255, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+#login-form{
+height: auto;
+
+}
+.ct-form-section h1{
+  margin: 10px;
+}
+
+#login-img{
+  margin-left:-83px ;
+}
+
+#email-al-reg{
+margin:20px 0px 0px 133px;
+}
+
+
+
+
+/* css for home page */
+
+.home-page{
+  width: 80%;
+  margin: 10px auto;
+}
+
+#home-id{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-div p{
+
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.home-div {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.e404{
+  font-size: 100px;
+  color: gray;
+}
+
+/* login css */
+
+
+.login-sec{
+height: 100vh;
+
+}
+
