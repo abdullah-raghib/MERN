@@ -10,7 +10,7 @@ export const Contact = () => {
     const callContactPage = async () => {
 
         try {
-            const res = await fetch('/getdata', {
+            const res = await fetch('https://mern-authentication-server-beta.vercel.app/getdata', {
                 method: "GET",
                 headers: {
 
@@ -52,7 +52,7 @@ export const Contact = () => {
 
             const {name, email, phone, message} = userData;
 
-            const res = await fetch('/contact', {
+            const res = await fetch('https://mern-authentication-server-beta.vercel.app/contact', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

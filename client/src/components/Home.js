@@ -7,7 +7,7 @@ const [Show, setShow] = useState(false);
     const callHomePage = async () => {
 
         try {
-            const res = await fetch('/getdata', {
+            const res = await fetch('https://mern-authentication-server-beta.vercel.app/getdata', {
                 method: "GET",
                 headers: {
 
