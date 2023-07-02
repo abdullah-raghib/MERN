@@ -16,8 +16,7 @@ app.use(cors(
   {
     origin: ["https://mern-taupe-nine.vercel.app"],
     post: ["POST", "GET"],
-    credentials: true,
-  }
+    optionsSuccessStatus: 200,
 ))
 
 app.use(require("./router/auth"));
