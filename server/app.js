@@ -3,15 +3,22 @@ const cookieParser = require('cookie-parser')
 const app = express();
 app.use(cookieParser())
 const dotenv = require("dotenv");
+const cors = require("cors");
 
 
 dotenv.config({ path: "./config.env" });
 require('./db/conn');
 const PORT = process.env.PORT || 5000;
 
-
-
 app.use(express.json());
+
+app.use(cors(
+  {
+    origin: ["https://mern-taupe-nine.vercel.app"],
+    post: ["POST", "GET"],
+    credentials: true,
+  }
+))
 
 app.use(require("./router/auth"));
 
