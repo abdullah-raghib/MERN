@@ -18,14 +18,13 @@ app.use(cors(
     post: ["POST", "GET"],
     optionsSuccessStatus: 200,
     allowedHeaders: ['Content-Type', 'Authorization'],
+  }
 ))
 
 app.use(require("./router/auth"));
 
 
-app.get('/',(req,res)=>{
-    res.send("welcome to the home page from app");
-})
+
 // app.get('/about',(req,res)=>{
 //     res.send("welcome to the about page");
 // })

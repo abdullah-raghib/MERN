@@ -11,7 +11,7 @@ export const About = () => {
     const callAboutPage = async () => {
 
         try {
-            const res = await fetch('https://mern-authentication-server-beta.vercel.app/abouts', {
+            const res = await fetch('mern-authentication-server-beta.vercel.app/abouts', {
                 method: "GET",
                 headers: {
 

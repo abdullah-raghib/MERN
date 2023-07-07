@@ -7,7 +7,7 @@ export const Logout = () => {
     useEffect(() => {
 
     
-    fetch('/logout', {
+    fetch('mern-authentication-server-beta.vercel.app/logout', {
         method: "GET",
         headers: {
             

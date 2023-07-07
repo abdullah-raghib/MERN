@@ -203,7 +203,9 @@ router.post('/contact', authenticate, async (req, res) => {
         console.log(err);
     }
 })
-
+router.get('/',(req,res)=>{
+    res.send("welcome to the home pagnbnbbnbbe from app");
+})
 router.get('/logout', (req, res) => {
     res.clearCookie('jwtoken'); 
     res.redirect('/');

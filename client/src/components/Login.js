@@ -14,7 +14,7 @@ export const Login = () => {
     const loginUser = async (e) => {
         e.preventDefault();
 
-        const res = await fetch('https://mern-authentication-server-beta.vercel.app/login', {
+        const res = await fetch('mern-authentication-server-beta.vercel.app/login', {
             method: "POST",
             headers: {
 
