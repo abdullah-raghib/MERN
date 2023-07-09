@@ -204,7 +204,7 @@ router.post('/contact', authenticate, async (req, res) => {
     }
 })
 router.get('/',(req,res)=>{
-    res.send("welcome to the home pagnbnbbnbbe from app");
+    res.send("welcome to the home Mern from app");
 })
 router.get('/logout', (req, res) => {
     res.clearCookie('jwtoken'); 
